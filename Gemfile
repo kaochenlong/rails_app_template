@@ -12,6 +12,10 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'bootstrap-sass'
 gem 'simple_form'
 
+# paging
+gem 'kaminari'
+gem 'bootstrap-kaminari-views'
+
 group :development, :test do
   gem 'sqlite3'
   gem 'byebug'
