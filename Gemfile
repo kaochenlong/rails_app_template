@@ -9,8 +9,22 @@ gem 'jquery-rails'
 gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
+
+# bootstrap
 gem 'bootstrap-sass'
+gem 'autoprefixer-rails'
+
+# form
 gem 'simple_form'
+gem 'cocoon'
+
+# users
+gem 'devise'
+gem 'omniauth-facebook'
+gem 'cancancan'
+
+# file upload
+gem 'carrierwave'
 
 # paging
 gem 'kaminari'
@@ -21,6 +35,20 @@ group :development, :test do
   gem 'byebug'
   gem 'web-console', '~> 2.0'
   gem 'spring'
+  gem 'hirb-unicode'
+  gem 'better_errors'
+end
+
+group :test do
+  gem 'minitest-reporters'
+	gem 'database_cleaner'
+  gem 'capybara'
+  gem 'guard'                   # test watcher
+  gem 'guard-minitest'
+
+  # fixture
+  gem 'factory_girl_rails'
+  gem 'faker'
 end
 
 group :production do
