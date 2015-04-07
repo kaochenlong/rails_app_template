@@ -30,6 +30,9 @@ gem 'carrierwave'
 gem 'kaminari'
 gem 'bootstrap-kaminari-views'
 
+# settings
+gem 'settingslogic'
+
 group :development, :test do
   gem 'sqlite3'
   gem 'byebug'
