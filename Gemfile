@@ -44,7 +44,7 @@ end
 
 group :test do
   gem 'minitest-reporters'
-	gem 'database_cleaner'
+  gem 'database_cleaner'
   gem 'capybara'
   gem 'guard'                   # test watcher
   gem 'guard-minitest'
@@ -55,6 +55,6 @@ group :test do
 end
 
 group :production do
-  gem 'pg'
+  # gem 'pg'
 end
 
