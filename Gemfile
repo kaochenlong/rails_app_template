@@ -26,6 +26,9 @@ gem 'cancancan'
 # file upload
 gem 'carrierwave'
 
+# image processor
+gem 'mini_magick'
+
 # paging
 gem 'kaminari'
 gem 'bootstrap-kaminari-views'

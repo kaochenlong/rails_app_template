@@ -17,6 +17,9 @@ Rails 4.2.1
 ### File Upload
 * gem 'carrierwave'
 
+### Image Processor
+* gem 'mini_magick'
+
 ### Paging
 * gem 'kaminari'
 * gem 'bootstrap-kaminari-views'
