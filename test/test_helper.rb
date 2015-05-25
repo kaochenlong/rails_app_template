@@ -7,6 +7,6 @@ require "minitest/reporters"
 Minitest::Reporters.use!
 
 class ActiveSupport::TestCase
-  ixtures :all
+  fixtures :all
   include FactoryGirl::Syntax::Methods
 end
