@@ -3,7 +3,7 @@ just an empty Rails App project
 contact: eddie@5xruby.tw
 
 ## Version
-Rails 4.2.1
+Rails 4.2.3
 
 ## GEMs
 ### Bootstrap
