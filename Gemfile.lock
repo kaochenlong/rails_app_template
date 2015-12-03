@@ -41,6 +41,10 @@ GEM
     autoprefixer-rails (5.2.1)
       execjs
       json
+    babel-source (5.8.19)
+    babel-transpiler (0.7.0)
+      babel-source (>= 4.0, < 6)
+      execjs (~> 2.0)
     bcrypt (3.1.10)
     better_errors (2.1.1)
       coderay (>= 1.0.0)
@@ -79,6 +83,7 @@ GEM
       execjs
     coffee-script-source (1.9.1.1)
     columnize (0.9.0)
+    connection_pool (2.2.0)
     database_cleaner (1.4.1)
     debug_inspector (0.0.2)
     devise (3.5.1)
@@ -212,6 +217,13 @@ GEM
     rb-inotify (0.9.5)
       ffi (>= 0.5.0)
     rdoc (4.2.0)
+    react-rails (1.1.0)
+      babel-transpiler (>= 0.7.0)
+      coffee-script-source (~> 1.8)
+      connection_pool
+      execjs
+      rails (>= 3.2)
+      tilt
     responders (2.1.0)
       railties (>= 4.2.0, < 5)
     ruby-progressbar (1.7.5)
@@ -288,6 +300,7 @@ DEPENDENCIES
   minitest-reporters
   omniauth-facebook
   rails (= 4.2.3)
+  react-rails
   sass-rails (~> 5.0)
   sdoc (~> 0.4.0)
   settingslogic
